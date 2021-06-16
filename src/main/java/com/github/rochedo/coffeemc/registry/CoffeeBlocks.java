@@ -17,7 +17,7 @@ public class CoffeeBlocks {
     public static final Block COFFEE_MACHINE = new CoffeeMachineBlock();
     public static final Block CRUSHER_COFFEE = new CrusherCoffeeBlock();
 
-    public static final CropBlock COFFEE_SEEDS = new CoffeeSeedsBase(FabricBlockSettings.copyOf(Blocks.WHEAT));
+    public static final CropBlock COFFEE_SEEDS = new CoffeeSeedsBase();
 
     public static void register() {
         Registry.register(Registry.BLOCK, new Identifier(CoffeeMC.MODID, "coffee_machine"), COFFEE_MACHINE);
