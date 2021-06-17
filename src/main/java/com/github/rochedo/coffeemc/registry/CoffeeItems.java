@@ -12,7 +12,7 @@ import net.minecraft.util.registry.Registry;
 
 public class CoffeeItems {
     public static final BucketItem CUP = new BucketItem(Fluids.EMPTY, new FabricItemSettings().group(CoffeeMC.COFFEE_GROUP));
-    public static final MilkBucketItem COFFEE_CUP = new MilkBucketItem(new FabricItemSettings().maxCount(1).food(CoffeeFoodComponents.COFFEE_CUP_FOOD));
+    public static final MilkBucketItem COFFEE_CUP = new MilkBucketItem(new FabricItemSettings().maxCount(1).food(CoffeeFoodComponents.GOOD_COFFEE_CUP));
     public static final MilkBucketItem COFFEE_MILK_CUP = new MilkBucketItem(new FabricItemSettings().maxCount(1).food(CoffeeFoodComponents.COFFEE_MILK_CUP_FOOD));
 
     public static final Item COFFEE_BEANS = new Item(new FabricItemSettings().group(CoffeeMC.COFFEE_GROUP));

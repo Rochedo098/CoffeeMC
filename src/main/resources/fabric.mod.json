@@ -20,6 +20,9 @@
   "entrypoints": {
     "main": [
       "com.github.rochedo.coffeemc.CoffeeMC"
+    ],
+    "client": [
+      "com.github.rochedo.coffeemc.CoffeeMCClient"
     ]
   },
 

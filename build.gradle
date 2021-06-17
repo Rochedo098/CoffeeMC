@@ -53,7 +53,7 @@ dependencies {
 	// Mod API's
 	modImplementation("me.shedaniel:RoughlyEnoughItems-fabric:${project.rei_version}") // REI Plugin
 	modImplementation("vazkii.patchouli:Patchouli:${project.patchouli_version}") // Patchouli
-	modImplementation("io.github.cottonmc:LibGui:${project.libgui_version}") // Lib Gui
+	modImplementation include("io.github.cottonmc:LibGui:${project.libgui_version}") // Lib Gui
 }
 
 processResources {
