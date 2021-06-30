@@ -1,0 +1,14 @@
+{
+  "itemGroup.coffees.general_coffees": "Coffees Mod",
+
+  "item.coffees.cup": "Cup",
+  "item.coffees.coffee_cup": "Coffee Cup",
+  "item.coffees.coffee_milk_cup": "Coffee with Milk Cup",
+
+  "item.coffees.coffee_beans": "Coffee Beans",
+  "item.coffees.crushed_coffee_beans": "Crushed Coffee Beans",
+
+  "block.coffees.coffee_machine": "Coffee Machine",
+  "block.coffees.crusher_coffee": "Crusher Coffee",
+  "block.coffees.coffee_seeds": "Coffee Seeds"
+}

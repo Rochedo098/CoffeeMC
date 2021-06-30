@@ -1,6 +1,5 @@
 package com.github.rochedo.coffeemc.registry.blocks.machines;
 
-import com.github.rochedo.coffeemc.registry.CoffeeGUIs;
 import com.github.rochedo.coffeemc.registry.blocks.entitys.machines.CoffeeMachineEntity;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.BlockRenderType;
@@ -14,7 +13,6 @@ import net.minecraft.util.Hand;
 import net.minecraft.util.hit.BlockHitResult;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
-import org.jetbrains.annotations.Nullable;
 
 public class CoffeeMachineBlock extends BlockWithEntity {
     public CoffeeMachineBlock() {

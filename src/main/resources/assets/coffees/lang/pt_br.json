@@ -1,0 +1,15 @@
+{
+  "itemGroup.coffees.general_coffees": "Coffees Mod",
+
+  "item.coffees.cup": "Xícara",
+  "item.coffees.coffee_cup": "Xícara de Café",
+  "item.coffees.coffee_milk_cup": "Xícara de Café com Leite",
+
+  "item.coffees.coffee_beans": "Grãos de Café",
+  "item.coffees.crushed_coffee_beans": "Grãos de Café Triturados",
+
+  "block.coffees.coffee_machine": "Máquina de Café",
+  "block.coffees.crusher_coffee_machine": "Triturador de Café",
+
+  "block.coffees.coffee_seeds": "Sementes de Café"
+}

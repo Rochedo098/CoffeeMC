@@ -17,16 +17,22 @@ public class CoffeeBlocks {
     public static final Block COFFEE_MACHINE = new CoffeeMachineBlock();
     public static final Block CRUSHER_COFFEE = new CrusherCoffeeBlock();
 
-    public static final CropBlock COFFEE_SEEDS = new CoffeeSeedsBase();
+    public static final CropBlock POOR_COFFEE_SEEDS = new CoffeeSeedsBase();
+    public static final CropBlock GOOD_COFFEE_SEEDS = new CoffeeSeedsBase();
 
     public static void register() {
+        // Machines
         Registry.register(Registry.BLOCK, new Identifier(CoffeeMC.MODID, "coffee_machine"), COFFEE_MACHINE);
         Registry.register(Registry.ITEM, new Identifier(CoffeeMC.MODID, "coffee_machine"), new BlockItem(COFFEE_MACHINE, new FabricItemSettings().group(CoffeeMC.COFFEE_GROUP)));
 
-        Registry.register(Registry.BLOCK, new Identifier(CoffeeMC.MODID,  "crusher_coffee_machine"), CRUSHER_COFFEE);
-        Registry.register(Registry.ITEM, new Identifier(CoffeeMC.MODID, "crusher_coffee_machine"), new BlockItem(CRUSHER_COFFEE, new FabricItemSettings().group(CoffeeMC.COFFEE_GROUP)));
+        Registry.register(Registry.BLOCK, new Identifier(CoffeeMC.MODID,  "crusher_coffee"), CRUSHER_COFFEE);
+        Registry.register(Registry.ITEM, new Identifier(CoffeeMC.MODID, "crusher_coffee"), new BlockItem(CRUSHER_COFFEE, new FabricItemSettings().group(CoffeeMC.COFFEE_GROUP)));
 
-        Registry.register(Registry.BLOCK, new Identifier(CoffeeMC.MODID, "coffee_seeds"), COFFEE_SEEDS);
-        Registry.register(Registry.ITEM, new Identifier(CoffeeMC.MODID, "coffee_seeds"), new BlockItem(COFFEE_SEEDS, new FabricItemSettings().group(CoffeeMC.COFFEE_GROUP)));
+        // Seeds
+        Registry.register(Registry.BLOCK, new Identifier(CoffeeMC.MODID, "poor_coffee_seeds"), POOR_COFFEE_SEEDS);
+        Registry.register(Registry.ITEM, new Identifier(CoffeeMC.MODID, "poor_coffee_seeds"), new BlockItem(POOR_COFFEE_SEEDS, new FabricItemSettings().group(CoffeeMC.COFFEE_GROUP)));
+
+        Registry.register(Registry.BLOCK, new Identifier(CoffeeMC.MODID, "good_coffee_seeds"), GOOD_COFFEE_SEEDS);
+        Registry.register(Registry.ITEM, new Identifier(CoffeeMC.MODID, "good_coffee_seeds"), new BlockItem(GOOD_COFFEE_SEEDS, new FabricItemSettings().group(CoffeeMC.COFFEE_GROUP)));
     }
 }
